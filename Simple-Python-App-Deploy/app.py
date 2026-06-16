@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+#basic routing
 @app.route('/')
 def hello():
     return 'Hello, This is a sample flask service to practice  ci/cd'
